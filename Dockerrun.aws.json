@@ -3,7 +3,7 @@
     "containerDefinitions":[
         {
             "name":"client",
-            "image":"neerajchimbili/multi-client",
+            "image":"neerajchimbili/multi-react",
             "hostname":"client",
             "essential":false,
             "memory":128
