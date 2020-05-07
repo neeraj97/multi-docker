@@ -11,7 +11,7 @@ script:
     - docker run -e CI=true neerajchimbili/react-test npm run test
 
 #build the prod images
-after-success:
+after_success:
     - docker build -t neerajchimbili/multi-react ./client
     - docker build -t neerajchimbili/multi-nginx ./nginx
     - docker build -t neerajchimbili/multi-server ./server
